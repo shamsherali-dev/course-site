@@ -1,0 +1,7 @@
+services:
+  img:
+    build: .
+    container_name: my-con
+    ports:
+      - 23:80
+      
