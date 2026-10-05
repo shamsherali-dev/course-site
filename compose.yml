@@ -3,5 +3,4 @@ services:
     build: .
     container_name: my-con
     ports:
-      - 23:80
-      
+      - 8050:80 
